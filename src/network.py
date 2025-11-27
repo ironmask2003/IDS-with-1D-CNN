@@ -22,7 +22,6 @@ class Dataset(Dataset):
         df = pd.read_csv(csv_path, header=None, names=features_info['Name'].tolist(), encoding='latin1', on_bad_lines='skip', low_memory=False)
         # Seleziona solo le colonne numeriche
         feature_cols = [col for col in numeric_features if col not in ['label', 'Label', 'attack_cat']]
-        logger.info(f"Selected feature columns (moderate correlation): {feature_cols}")
         X = df[feature_cols].apply(pd.to_numeric, errors='coerce').fillna(0).values.astype(np.float32)
         y = pd.to_numeric(df[label_col], errors='coerce').fillna(0).astype(np.int64)
         self.total_len = len(X)
