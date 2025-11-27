@@ -1,0 +1,52 @@
+2025-11-27 14:43:01,169 Training model INFO     Using default parameters: csv_path=['./Dataset/UNSW-NB15_1.csv', './Dataset/UNSW-NB15_2.csv', './Dataset/UNSW-NB15_3.csv', './Dataset/UNSW-NB15_4.csv'], batch_size=64, epochs=25, lr=0.001, num_classes=2
+2025-11-27 14:43:01,170 Training model INFO     Loading dataset...
+2025-11-27 14:43:04,098 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:08,195 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:18,229 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:23,002 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:32,112 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:37,388 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:44,084 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:47,381 Training model INFO     Selected feature columns (moderate correlation): ['sport', 'dsport', 'dur', 'sbytes', 'dbytes', 'sttl', 'dttl', 'sloss', 'dloss', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_state_ttl', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+2025-11-27 14:43:50,494 Training model INFO     Dataset loaded with 417666 samples.
+2025-11-27 14:43:50,494 Training model INFO     Validation dataset loaded with 2122381 samples.
+2025-11-27 14:44:58,262 Training model INFO     Epoch 1/25 - Loss: 0.4496 - Accuracy: 0.7910
+2025-11-27 14:46:02,691 Training model INFO     Epoch 2/25 - Loss: 0.3898 - Accuracy: 0.8056
+2025-11-27 14:47:06,163 Training model INFO     Epoch 3/25 - Loss: 0.3849 - Accuracy: 0.8066
+2025-11-27 14:48:09,755 Training model INFO     Epoch 4/25 - Loss: 0.3813 - Accuracy: 0.8074
+2025-11-27 14:49:13,465 Training model INFO     Epoch 5/25 - Loss: 0.3804 - Accuracy: 0.8075
+2025-11-27 14:50:17,951 Training model INFO     Epoch 6/25 - Loss: 0.3794 - Accuracy: 0.8074
+2025-11-27 14:51:22,647 Training model INFO     Epoch 7/25 - Loss: 0.3729 - Accuracy: 0.8077
+2025-11-27 14:52:25,791 Training model INFO     Epoch 8/25 - Loss: 0.3616 - Accuracy: 0.8091
+2025-11-27 14:53:28,250 Training model INFO     Epoch 9/25 - Loss: 0.3587 - Accuracy: 0.8104
+2025-11-27 14:54:31,099 Training model INFO     Epoch 10/25 - Loss: 0.3579 - Accuracy: 0.8112
+2025-11-27 14:55:34,171 Training model INFO     Epoch 11/25 - Loss: 0.3457 - Accuracy: 0.8113
+2025-11-27 14:56:36,960 Training model INFO     Epoch 12/25 - Loss: 0.3262 - Accuracy: 0.8334
+2025-11-27 14:57:39,761 Training model INFO     Epoch 13/25 - Loss: 0.3203 - Accuracy: 0.8395
+2025-11-27 14:58:43,692 Training model INFO     Epoch 14/25 - Loss: 0.3186 - Accuracy: 0.8418
+2025-11-27 14:59:46,806 Training model INFO     Epoch 15/25 - Loss: 0.3168 - Accuracy: 0.8434
+2025-11-27 15:00:49,408 Training model INFO     Epoch 16/25 - Loss: 0.3141 - Accuracy: 0.8457
+2025-11-27 15:01:54,225 Training model INFO     Epoch 17/25 - Loss: 0.3125 - Accuracy: 0.8474
+2025-11-27 15:02:58,270 Training model INFO     Epoch 18/25 - Loss: 0.3117 - Accuracy: 0.8479
+2025-11-27 15:04:02,392 Training model INFO     Epoch 19/25 - Loss: 0.3108 - Accuracy: 0.8488
+2025-11-27 15:05:06,536 Training model INFO     Epoch 20/25 - Loss: 0.3099 - Accuracy: 0.8492
+2025-11-27 15:06:11,027 Training model INFO     Epoch 21/25 - Loss: 0.3087 - Accuracy: 0.8507
+2025-11-27 15:07:16,783 Training model INFO     Epoch 22/25 - Loss: 0.3072 - Accuracy: 0.8516
+2025-11-27 15:08:22,794 Training model INFO     Epoch 23/25 - Loss: 0.3073 - Accuracy: 0.8525
+2025-11-27 15:09:26,075 Training model INFO     Epoch 24/25 - Loss: 0.3060 - Accuracy: 0.8532
+2025-11-27 15:10:29,635 Training model INFO     Epoch 25/25 - Loss: 0.3059 - Accuracy: 0.8536
+2025-11-27 15:13:38,185 Training model INFO     
+              precision    recall  f1-score   support
+
+           0     0.9973    0.7452    0.8530   1869306
+           1     0.3435    0.9851    0.5094    253075
+
+    accuracy                         0.7738   2122381
+   macro avg     0.6704    0.8651    0.6812   2122381
+weighted avg     0.9193    0.7738    0.8120   2122381
+
+2025-11-27 15:13:41,061 Training model INFO     Validation Accuracy: 0.7738
+2025-11-27 15:13:41,062 Training model INFO     Validation F1-score: 0.8120
+2025-11-27 15:13:41,062 Training model INFO     Validation Precision: 0.9193
+2025-11-27 15:13:41,062 Training model INFO     Validation Recall: 0.7738
+2025-11-27 15:13:41,067 Training model INFO     Validation metrics saved to /Users/lachithaperera/Documents/FDS_IDS_CNN/Plots/validation_metrics.csv
