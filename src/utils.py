@@ -1,5 +1,6 @@
 import torch
 import numpy as np
+import joblib
 import logging
 from os.path import join, abspath, dirname, pardir
 
@@ -80,6 +81,11 @@ def save_model(model, model_path):
     if model_path is None:
         model_path = join(MODEL_DIR, "cnn_model.pth")
     torch.save(model.state_dict(), model_path)
+
+def save_rf_model(model, model_path):
+    if model_path is None:
+        model_path = join(MODEL_DIR, "rf_model.joblib")
+    joblib.dump(model, model_path)
 
 def update_plot(ax, values, color, title, label_title):
     """

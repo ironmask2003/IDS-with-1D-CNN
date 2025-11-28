@@ -1,7 +1,7 @@
 import argparse
 
-from src.train import train
-from src.test import test
+from src.train import *
+from src.test import *
 from src.utils import *
 
 def parse_args():
@@ -14,6 +14,7 @@ def parse_args():
     parser.add_argument("--csv_path", type=str, default='./Dataset/UNSW-NB15_1.csv', help="Path to the training CSV dataset.")
     parser.add_argument("--test", action='store_true', help="If True, run in test mode.")
     parser.add_argument("--load", action='store_true', help="If True, load existing model for training continuation.")
+    parser.add_argument("--model_type", type=str, default="cnn", choices=["cnn", "rf"], help="Type of model to train: 'cnn' or 'rf' (Random Forest).")
 
     return parser.parse_args()
 
@@ -37,11 +38,20 @@ def main():
             test(device, test_params_single, args.model_path, logger)
         return
     else:
+
+        if args.model_type == "rf":
+            # Init logger
+            logger = init_logger("Training Random Forest model", f"{LOG_DIR}/rf_training.log")
+            training_params = params(logger, test=False, csv_path=args.csv_path, batch_size=args.batch_size, epochs=args.epochs, lr=args.learning_rate, num_classes=2)
+
+            rf_model = train_randomf(training_params, logger, args.load)
+            save_rf_model(rf_model, args.model_path)
+            return
         # Init logger
         logger = init_logger("Training model", f"{LOG_DIR}/training.log")
         training_params = params(logger, test=False, csv_path=args.csv_path, batch_size=args.batch_size, epochs=args.epochs, lr=args.learning_rate, num_classes=2)
 
-        trained_model = train(device, training_params, logger, args.load, args.model_path)
+        trained_model = train_cnn(device, training_params, logger, args.load, args.model_path)
         save_model(trained_model, args.model_path)
 
 if __name__ == "__main__":
