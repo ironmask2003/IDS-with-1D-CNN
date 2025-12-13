@@ -1,3 +1,0 @@
-https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
-
-Mettere in questa cartella solo i file: UNSW-NB15_1.csv, UNSW-NB15_2.csv, UNSW-NB15_3.csv, UNSW-NB15_4.csv
