@@ -1,0 +1,15 @@
+2025-12-13 12:09:18,837 run_isoforest INFO     Threshold used: 0.544672
+2025-12-13 12:09:18,837 run_isoforest INFO     Eval Accuracy: 0.7953
+2025-12-13 12:09:18,837 run_isoforest INFO     Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8494    0.7179    0.7781     13501
+           1     0.7557    0.8727    0.8100     13501
+
+    accuracy                         0.7953     27002
+   macro avg     0.8026    0.7953    0.7941     27002
+weighted avg     0.8026    0.7953    0.7941     27002
+
+2025-12-13 12:09:18,837 run_isoforest INFO     Confusion Matrix:
+[[9693, 3808], [1719, 11782]]
+2025-12-13 12:09:18,837 run_isoforest INFO     Done. Results in dictionary returned from evaluation.

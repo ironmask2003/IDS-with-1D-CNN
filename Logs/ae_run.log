@@ -1,0 +1,16 @@
+2025-12-13 12:09:36,419 run_ae       INFO     Loaded scaler from /Users/lachithaperera/Downloads/FDS/Model/scaler.pkl
+2025-12-13 12:09:37,966 run_ae       INFO     Threshold used: 0.080155
+2025-12-13 12:09:37,966 run_ae       INFO     Eval Accuracy: 0.9400
+2025-12-13 12:09:37,966 run_ae       INFO     Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9019    0.9875    0.9428     13501
+           1     0.9862    0.8926    0.9371     13501
+
+    accuracy                         0.9400     27002
+   macro avg     0.9440    0.9400    0.9399     27002
+weighted avg     0.9440    0.9400    0.9399     27002
+
+2025-12-13 12:09:37,966 run_ae       INFO     Confusion Matrix:
+[[13332, 169], [1450, 12051]]
+2025-12-13 12:09:37,967 run_ae       INFO     Done. Results in dictionary returned from evaluation.
